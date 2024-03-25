@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body id="bg" class="bg-white dark:bg-blue-950">
+    <header id="Header"
+        class="md:flex bg-white md:justify-center md:gap-96 md:mt-10 mt-10 flex-row flex justify-center gap-24 flex-wrap dark:bg-blue-950">
+        <h1 class="text-2xl font-bold md:mr-96 dark:text-white">Hasan Basri Bayat</h1>
+        <div class="md:hidden block text-black dark:text-white" onclick="hidemenu()">
+            <i class="bx bx-menu text-4xl"></i>
+        </div>
+        <div id="menu" class="hidden md:flex flex-col md:flex-row  items-start md:items-center gap-5 md:gap-0 ">
+            <nav>
+                <ul class="flex flex-col md:flex-row gap-8 capitalize dark:text-white">
+                    <a href="" class="text-xl ">About</a>
+                    <a href="" class="text-xl">Article</a>
+                    <a href="" class="text-xl">Project</a>
+                    <a href="" class="text-3xl bx bx-search-alt-2"></a>
+                    <li id="iconDark" onclick="hitam()" class="text-3xl bx bx-sun"></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section
+        class="md:flex md:flex-row md:items-center md:justify-center md:mt-20 md:mx-3.5 flex flex-col-reverse mt-20 justify-center items-center ">
+        <div class="flex-col gap-2 flex ml-10 w-4/5 m-auto">
+            <p class="text-xl text-gray-400 font-semibold flex ml-1 dark:text-white">PROFESIONAL</p>
+            <p class="md:text-5xl font-bold md:w-1/2 text-3xl dark:text-white">Flutter Developer and UI/UX Designer</p>
+            <p class="md:text-xl text-gray-400 md:w-4/6 text-xl dark:text-white">My main goal is travelling the world
+                while
+                working
+                remotely! if
+                you'd
+                like
+                to help/work with me,Lets get
+                in touch!</p>
+            <button
+                class="md:h-20 md:w-36 rounded-lg bg-black text-white text-xl font-semibold h-9 w-full md:font-semibold md:text-xl ">Say
+                Hello!</button>
+        </div>
+        <div class="">
+            <img src="../assets/burungujian.png" alt="">
+        </div>
+    </section>
+    <main>
+        <section class="md:mt-12 mt-24">
+            <div class="w-[80%] m-auto my-24">
+                <div class="flex justify-between">
+                    <h1 class="font-bold text-2xl dark:text-white text-black">Latest Article</h1>
+                    <p class="font-semibold text-gray-500 dark:text-white text-2xl">SEE ALL</p>
+                </div>
+                <div class="flex mt-6 gap-12 md:flex-row flex-col">
+                    <div class="md:w-1/2 w-full"><img src="../assets/flutter_hooks.jpeg" alt="" class="rounded-xl">
+                    </div>
+                    <div class="flex flex-col md:w-1/2 w-full gap-6">
+                        <div class="flex justify-between">
+                            <p class="md:text-2xl text-lg text-gray-500 font-bold dark:text-white">BEST PACKAGE - PART 1
+                            </p>
+                            <p class="md:text-2xl text-lg text-gray-500 dark:text-white">24 MAY 2022</p>
+                        </div>
+                        <h1 class="font-bold md:text-4xl text-2xl dark:text-white">Minimalist Guide to Flutter Hooks
+                        </h1>
+                        <p class="text-gray-500 text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
+                            veniam explicabo nisi saepe at excepturi. Quidem iusto libero at, odio veritatis dolores
+                            repellat rerum possimus numquam totam ab. Nam minus sapiente quisquam modi ipsam nihil ab
+                            obcaecati quibusdam ad excepturi quo nostrum nobis deserunt in vitae accusamus, eum nemo
+                            facere?
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, perferendis!
+                        </p>
+                    </div>
+                </div>
+                <div class="mt-12 flex gap-12 flex-col md:flex-row">
+                    <div class="md:w-1/2 w-full">
+                        <img src="../assets/flutter_hooks.jpeg" alt="" class="rounded-xl">
+                        <div class="flex flex-col gap-6 mt-4">
+                            <div class="flex justify-between">
+                                <p class="md:text-2xl text-lg text-gray-500 font-bold dark:text-white">BEST PACKAGE -
+                                    PART 1
+                                </p>
+                                <p class="md:text-xl text-lg text-gray-500 dark:text-white">24 MAY 2022</p>
+                            </div>
+                            <h1 class="font-bold md:text-4xl text-2xl dark:text-white">Minimalist Guide to Flutter Hooks
+                            </h1>
+                            <p class="text-gray-500 text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Velit
+                                veniam explicabo nisi saepe at excepturi. Quidem iusto libero at, odio veritatis dolores
+                                repellat rerum possimus numquam totam ab. Nam minus sapiente quisquam modi ipsam nihil
+                                ab
+                                obcaecati quibusdam ad excepturi quo nostrum nobis deserunt in vitae accusamus, eum nemo
+                                facere? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, perferendis!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 w-full">
+                        <img src="../assets/flutter_hooks.jpeg" alt="" class="rounded-xl">
+                        <div class="flex flex-col gap-6 mt-4">
+                            <div class="flex justify-between">
+                                <p class="md:text-2xl text-lg text-gray-500 font-bold dark:text-white">BEST PACKAGE -
+                                    PART 1
+                                </p>
+                                <p class="md:text-2xl text-lg text-gray-500 dark:text-white">24 MAY 2022</p>
+                            </div>
+                            <h1 class="font-bold md:text-4xl text-2xl  dark:text-white">Minimalist Guide to Flutter
+                                Hooks</h1>
+                            <p class="text-gray-500 text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Velit
+                                veniam explicabo nisi saepe at excepturi. Quidem iusto libero at, odio veritatis dolores
+                                repellat rerum possimus numquam totam ab. Nam minus sapiente quisquam modi ipsam nihil
+                                ab
+                                obcaecati quibusdam ad excepturi quo nostrum nobis deserunt in vitae accusamus, eum nemo
+                                facere? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, perferendis!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script>
+        var dStatus = false;
+        function hidemenu() {
+            if (!dStatus) {
+                document.getElementById('menu').classList.remove("hidden");
+                document.getElementById('menu').classList.add("flex");
+                if (document.documentElement.scrollTop < 20) {
+                    document.getElementById('Header').classList.add("bg-white");
+
+                }
+                dStatus = true;
+            } else {
+                if (document.documentElement.scrollTop < 20) {
+                    document.getElementById('Header').classList.remove("bg-white");
+                }
+                dStatus = false;
+                document.getElementById('menu').classList.add("hidden");
+                document.getElementById('menu').classList.remove("flex");
+            }
+        }
+        function hitam() {
+            const sunmoon = document.documentElement.classList.toggle('dark')
+            const bgck = document.getElementById('bg')
+            if (sunmoon == true) {
+                document.getElementById('iconDark').classList.add('bxs-sun')
+                document.getElementById('iconDark').classList.remove('bxs-moon')
+                bgck.classList.add('dark')
+            }
+            else {
+                document.getElementById('iconDark').classList.add('bxs-moon')
+                document.getElementById('iconDark').classList.remove('bxs-sun')
+                bgck.classList.remove('dark')
+            }
+        }
+
+    </script>
+</body>
+
+</html>
